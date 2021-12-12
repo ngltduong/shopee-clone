@@ -1,0 +1,38 @@
+/* Global Setting */
+:root{
+    --background-tomato: hsl(6,91%,57%);
+    --background-whitesmoke: hsl(0,0%,96%);
+    --category-gray: hsl(0,0%,46%);
+    --footer-snow-color: hsl(0,0%,98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: inherit;
+    font-size: 62.5%;
+    line-height: 1.5;
+    font-family: Helvetica, Arial, sans-serif;
+    max-width: 192rem;
+}
+
+a, ul,li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a, li, i{
+    font-size: 1.5rem;
+}
+
+.white-text{
+    color: white;
+}
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}

@@ -1,0 +1,41 @@
+.header{
+    background-color: var(--background-tomato);
+    /* background-size: cover; */
+    width: 100%;
+}
+
+.header a, i{
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .nav__list{
+    display: flex;
+}
+
+.nav .nav__list--item{
+    padding: 0 0.7rem;
+}
+
+.line-space + .line-space{
+    border-left: 0.1rem solid hsl(7,94%,66%);
+}
+
+.nav i{
+    padding: 0 0.4rem;
+}
+
+.nav a:hover,
+.nav a:hover i {
+    color: hsl(8,91%,90%);
+}
+
+.nav .fb-icon-link, .instag-icon-link{
+    width: 1.6rem;
+    height: 1.6rem;
+    background: url('./img/icons8-facebook-30.png') cover;
+}
